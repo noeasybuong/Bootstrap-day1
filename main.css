@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Navigation */
+.background-navigation {
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+
+.background-navigation-content {
+
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.background-navigation-content-one {
+
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+
+.background-navigation-content-two {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 90px;
+    padding: 3px;
+
+}
+
+.background-navigation-content-button {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Head */
+.background-head {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0, rgba(30, 13, 13, 0.7), rgba(30, 14, 14, 0.8)),
+        url(https://anhquanpro.vn/wp-content/uploads/2017/10/phong-cach-diy-trong-trang-tri-ban-lam-viec.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hr-background {
+
+    border: 0;
+    padding: 2px;
+    clear: both;
+    display: block;
+    width: 5%;
+    background-color: orangered;
+    height: 1px;
+
+}
+
+
+
+.background-head-content {
+
+
+    color: white;
+
+}
+
+
+.background-head-content-t {
+    background-size: auto;
+}
+
+.text-while {
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+.text-button {
+
+    width: 70px;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 10rem;
+}
+
+
+
+
+
+
+/* Get started */
+.bd-main {
+    width: 100%;
+    background-color: rgb(237, 82, 26);
+    text-align: center;
+    width: 100%;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bd-main-content-o {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.hr-main {
+    border: 0;
+    clear: both;
+    display: block;
+    background-color: aliceblue;
+    padding: 1px;
+    width: 5%;
+}
+
+
+
+
+
+
+
+/* At Your Service */
+.bd-ays {
+    width: 1320px;
+    height: 290px;
+    padding: 130px 288px;
+
+    background-color: white;
+
+}
+
+h3.bd-ays-content-appoint {
+    font-size: 15px;
+}
+
+
+h2.bd-ays-content-appoint {
+    color: black;
+    font-size: 20px;
+
+}
+
+.bd-ays-content-appoint-head {
+    padding-bottom: 40px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.bd-ays-content {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.img-content {
+    width: 40px;
+    height: 40px;
+}
+
+.bd-ays-content-appoint {
+    padding-top: 25px;
+    padding: 0px 24px;
+
+}
+
+.hr-bd-ays {
+    width: 60px;
+    height: 5px;
+    background-color: orangered;
+    margin: 20px auto;
+
+}
+
+@media screen and (max-width:767px) {
+    .bd-ays {
+        width: 440px;
+
+    }
+
+    .img-content {
+        flex-basis: 33%;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:960px) and (min-width:667px) {
+
+    .bd-ays {
+        width: 880px;
+
+    }
+
+    .img-content {
+        flex-basis: 66%;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+/* images */
+.bd-img {
+    width: 2000px;
+
+}
+
+
+.bd-img-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    flex-basis: 100%;
+}
+
+.img {
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .bd-img {
+        width: 666px;
+    }
+
+    .bd-img-content {
+        flex-wrap: wrap;
+        flex-basis: 33%;
+    }
+}
+
+
+
+
+@media screen and (max-width:960px) and (min-width:667px) {
+    .bd-img {
+        width: 1300px;
+    }
+
+    .bd-img-content {
+        flex-wrap: wrap;
+        flex-basis: 66%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Download Now! */
+.bd-dn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
