@@ -738,7 +738,7 @@ p.bd-dn-content {
 /* Form */
 .intouch {
     width: 100%;
-    height: 400px;
+
     background-color: white;
 
 }
@@ -774,8 +774,8 @@ p.bd-dn-content {
 }
 
 input:focus {
-    border: 5px solid red;
-    box-shadow: 3px rgba(219, 52, 52, 0.5);
+    border: 3px solid red;
+    box-shadow: 5px rgba(219, 52, 52, 0.5);
 }
 
 
@@ -785,11 +785,22 @@ input:focus {
     background-color: orange;
     border: none;
     border-radius: 10rem;
-    margin-left: 32%;
+    margin-left: 29%;
     font-size: 15px;
 }
 
+.inputer-message {
+    width: 600px;
+    height: 300px;
+    padding: 16px 12px;
+    border: 1px solid black;
 
+}
+
+textarea:focus {
+    border: 3px solid red;
+    box-shadow: 5px rgba(219, 52, 52, 0.5);
+}
 
 
 
@@ -801,11 +812,12 @@ input:focus {
 
     }
 
-    .input {
+    .inputer {
         width: 200px;
         height: 15px;
-        padding: 16px 12px;
+        padding: 10px 8px;
         border: 1px solid black;
+
     }
 
     .intouch-content {
@@ -818,15 +830,30 @@ input:focus {
     }
 
     .submit {
-        width: 30%;
+        width: 200px;
         padding: 20px 25px;
         background-color: orange;
         border: none;
         border-radius: 10rem;
-        margin-left: 35%;
+        margin-left: 70px;
         font-size: 15px;
     }
 
+    .inputer {
+        width: 200px;
+        height: 10px;
+        padding: 14px 10px;
+        border: 1px solid black;
+
+    }
+
+    .inputer-message {
+        width: 200px;
+        height: 200px;
+        padding: 16px 12px;
+        border: 1px solid black;
+
+    }
 }
 
 @media screen and (max-width:1023px) and (min-width:768px) {
@@ -845,14 +872,30 @@ input:focus {
         background-color: orange;
         border: none;
         border-radius: 10rem;
-        margin-left: 35%;
+        margin-left: 250px;
         font-size: 15px;
     }
 
+    .inputer {
+        width: 400px;
+        height: 15px;
+        padding: 14px 10px;
+        border: 1px solid black;
+
+    }
+
+    .inputer-message {
+        width: 400px;
+        height: 200px;
+        padding: 16px 12px;
+        border: 1px solid black;
+
+    }
 }
 
 /* footer */
 .footer-container {
+
     display: flex;
     align-items: center;
 }
@@ -860,44 +903,45 @@ input:focus {
 
 .footer {
     width: 1830px;
-    height: 80px;
+    height: 60px;
+
     font-size: 20px;
     color: #222;
     background-color: aliceblue;
     text-align: center;
     padding: 0 20px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 
 @media screen and (max-width:767px) {
 
     .footer {
-        width: 300px;
-        height: 25px;
+        width: 375px;
+        height: 20px;
         font-size: 10px;
         color: #222;
         background-color: aliceblue;
         text-align: center;
-        margin-top: 1px;
+        margin-top: 350px;
         padding: 0 10px;
-
     }
+
 }
 
 
 
-@media screen and (max-width:1023) and (min-width:768px) {
+@media screen and (max-width:1023px) and (min-width:768px) {
 
     .footer {
-        width: 700px;
-        height: 50px;
+        width: 820px;
+        height: 30px;
+
         font-size: 15px;
         color: #222;
         background-color: aliceblue;
         text-align: center;
-
-        padding: 0 15px;
-
+        padding: 0 20px;
+        margin-top: 70px;
     }
 }
